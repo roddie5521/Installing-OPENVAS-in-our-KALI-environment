@@ -27,11 +27,14 @@ Since OpenVAS requires downloading a range of dependencies, updates, and vulnera
 
 ### Installing Openvas on Kali Linux
 To install Openvas and its dependencies on our Kali Linux system run the following command:
-__sudo apt update__                      
-__sudo apt upgrade -y__
-__sudo apt dist-upgrade -y__
 
-<>
+__└─$ sudo apt update__    
+
+__└─$ sudo apt upgrade -y__
+
+__└─$ sudo apt dist-upgrade -y__
+
+![image one] (./Install OPENVAS\dist upgrade.png)
 
 The next step is to run the installer, which will configure OpenVAS and download various network vulnerability tests (NVT) or signatures. Due to a large number of NVTs (50.000+),  the setting process may take some time and consume a lot of data. In the test setup we used for this tutorial, the complete setup process took 10 minutes, which is not bad.
 
